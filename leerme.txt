@@ -1,0 +1,40 @@
+mediante el botfather (bot de telegram)
+creamos mediante comandos un bot
+
+
+/newbot
+
+elegimos nombre
+
+eestn1
+
+nombre de usuario del bot
+
+eestn1_bot
+
+luego de adjuntamos la imagen para cambiarle la imagen al bot
+
+/setuserpic
+
+y elegimos le bot al que cambiaremos la imagen de perfil
+
+@eestn1_bot
+
+luego instalamos la biblioteca de python que nos permite programar el bot para telegram
+
+abrimos la terminal y escribimos el siguiente comando
+
+pip install python-telegram-bot
+
+el siguiente paso sera crear una carpeta para nuestro bot donde estara el codigo y crear 3 ficheros.py
+
+eestn1.py : donde iniciamos el bot
+
+fn.py: donde tendremos las diferentes funciones que vamos a crear y que llamaran los comandos de nuestro bot
+
+commands.py: donde tendremos los comandos de nuestro bot
+
+
+notas: para hacerlo funcionar
+
+set TELEGRAM_BOT_TOKEN=7339398074:AAFF5ytjPzyJUzTsORk-M-VUJoBUcdOgkWU
