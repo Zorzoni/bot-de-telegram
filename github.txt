@@ -1,0 +1,36 @@
+git config --global user.name "EL_MIGUE"
+git config --global user.email "principe.zorzoni@gmail.com"
+
+local 
+
+1: git init
+
+2:  git remote add origin https://github.com/EL_MIGUE/mi-proyecto.git
+
+3: git status
+
+4: git add .
+
+5: git status
+
+6: git commit -m "Primer commit: Subiendo mis archivos iniciales"
+
+subirlo al github
+
+git push (git te proveeme otro comando mas largo y eso lo sube) 
+
+si pide nombre escribis ambos codigos de nombre y gmail y luego los comprobas con
+ 
+git config user.name
+git config user.email
+
+si tenes problema
+
+git branch   (te dara un nombre que no sera main entonces vos hace el sigueinte)
+
+git branch -M main
+
+git push -u origin main
+
+
+
